@@ -179,27 +179,6 @@ void wypelnijLosowo(int tab[ROZM+2][ROZM+2])
     }
 }
 
-void wypelnijLosowo50(int tab[ROZM+2][ROZM+2])
-{
-    int procent = 50;
-    int x;
-    int zarodek;
-    time_t tt;
-    zarodek=time(&tt);
-    srand(zarodek);
-    for (int i=1; i<ROZM+1; ++i)
-    {
-        for (int j=1; j<ROZM+1; ++j)
-        {
-            x=rand()%100;
-            if (x<procent)
-                tab[i][j]=1;
-            else
-                tab[i][j]=0;
-        }
-    }
-}
-
 void wypelnijKomorki1(int tab[ROZM+2][ROZM+2])
 {
     for (int i=1; i<ROZM+1; ++i)
