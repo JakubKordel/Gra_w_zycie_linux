@@ -1,0 +1,12 @@
+void dodajKlocek(int tab[ROZM+2][ROZM+2]);
+void dodajLodz(int tab[ROZM+2][ROZM+2]);
+void dodajKoniczynka(int tab[ROZM+2][ROZM+2]);
+void dodajStaw(int tab[ROZM+2][ROZM+2]);
+void dodajKrysztal(int tab[ROZM+2][ROZM+2]);
+void dodajBochenek(int tab[ROZM+2][ROZM+2]);
+void dodajSzybowiec(int tab[ROZM+2][ROZM+2]);
+void dodajDakota(int tab[ROZM+2][ROZM+2]);
+void dodajBlinker(int tab[ROZM+2][ROZM+2]);
+void dodajZabka(int tab[ROZM+2][ROZM+2]);
+void dodajKrokodyl(int tab[ROZM+2][ROZM+2]);
+void dodajFontanna(int tab[ROZM+2][ROZM+2]);
