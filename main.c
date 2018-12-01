@@ -52,9 +52,6 @@ int main()
             break;
         case 8:
             break;
-        case 9:
-            wypelnijLosowo50(tab);
-            break;
         default:
             nieprawidlowyZnak();
             break;
